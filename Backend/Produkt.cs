@@ -15,6 +15,9 @@ namespace Backend
 
         public double VAT { get; set; }
 
+
+
+
     }
 
 }
