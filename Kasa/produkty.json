@@ -1,0 +1,105 @@
+[
+  {
+    "Nazwa": "Szczypior",
+    "Jednostka": "szt.",
+    "Cena": 2,
+    "Barcode": "01",
+    "VAT": 0.08
+  },
+
+  {
+    "Nazwa": "Jajo",
+    "Jednostka": "mendel",
+    "Cena": 15,
+    "Barcode": "02",
+    "VAT": 0.08
+  },
+
+  {
+    "Nazwa": "Pepsi",
+    "Jednostka": "szt.",
+    "Cena": 5,
+    "Barcode": "03",
+    "VAT": 0.23
+  },
+
+  {
+    "Nazwa": "Kawa",
+    "Jednostka": "szt.",
+    "Cena": 20,
+    "Barcode": "04",
+    "VAT": 0.23
+  },
+
+  {
+    "Nazwa": "Herbata",
+    "Jednostka": "szt.",
+    "Cena": 6,
+    "Barcode": "05",
+    "VAT": 0.08
+  },
+
+  {
+    "Nazwa": "Cebula",
+    "Jednostka": "kg.",
+    "Cena": 3,
+    "Barcode": "06",
+    "VAT": 0.08
+  },
+
+  {
+    "Nazwa": "Tofu",
+    "Jednostka": "szt.",
+    "Cena": 7,
+    "Barcode": "07",
+    "VAT": 0.08
+  },
+
+  {
+    "Nazwa": "Pizza",
+    "Jednostka": "szt.",
+    "Cena": 12,
+    "Barcode": "08",
+    "VAT": 0.23
+  },
+
+  {
+    "Nazwa": "Dorsz",
+    "Jednostka": "kg.",
+    "Cena": 59,
+    "Barcode": "09",
+    "VAT": 0.23
+  },
+
+  {
+    "Nazwa": "Szproty",
+    "Jednostka": "kg.",
+    "Cena": 29,
+    "Barcode": "10",
+    "VAT": 0.23
+  },
+
+  {
+    "Nazwa": "Majezon",
+    "Jednostka": "szt.",
+    "Cena": 8,
+    "Barcode": "11",
+    "VAT": 0.23
+  },
+
+  {
+    "Nazwa": "Tatar",
+    "Jednostka": "kg.",
+    "Cena": 19,
+    "Barcode": "12",
+    "VAT": 0.23
+  },
+
+  {
+    "Nazwa": "Kasza",
+    "Jednostka": "szt.",
+    "Cena": 3,
+    "Barcode": "13",
+    "VAT": 0.08
+  }
+]

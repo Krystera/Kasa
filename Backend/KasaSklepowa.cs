@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace Backend
 {
@@ -26,30 +28,11 @@ namespace Backend
 
         public void StworzProdukty()
         {
-            Produkty = new List<Produkt>();
-            Produkt p = new Produkt();
-            p.Nazwa = "Mleko";
-            p.Jednostka = "sztuk";
-            p.Cena = 5;
-            p.Barcode = "01";
-            p.VAT = 0.23;
-            Produkty.Add(p);
+            var sciezka = Directory.GetCurrentDirectory() + "\\produkty.json";
+            var content = File.ReadAllText(sciezka);
+            Produkty = JsonConvert.DeserializeObject<List<Produkt>>(content);
 
-            Produkt r = new Produkt();
-            r.Nazwa = "Sok";
-            r.Jednostka = "sztuk";
-            r.Cena = 5;
-            r.Barcode = "02";
-            r.VAT = 0.08;
-            Produkty.Add(r);
-
-            Produkt o = new Produkt();
-            o.Nazwa = "Cola";
-            o.Jednostka = "sztuk";
-            o.Cena = 10;
-            o.Barcode = "03";
-            o.VAT = 0.23;
-            Produkty.Add(o);
+         
         }
 
 

@@ -10,18 +10,17 @@ namespace Kasa
     class Program
     {
         static void Main(string[] args)
-        {
+        {   
             KasaSklepowa kasaSklepowa = new KasaSklepowa();
 
             Console.WriteLine("Lista produktów dostępnych w sklepie: ");
             Console.WriteLine();
-            foreach (Produkt s in kasaSklepowa.Produkty)
-            {
+          
 
-                Console.WriteLine($"BARCODE: {s.Barcode}    {s.Nazwa}, {s.Cena} monet za {s.Jednostka}. ");
+            WyswietlaniePetli wyswietlaniePetli = new WyswietlaniePetli();
 
-            }
-
+            wyswietlaniePetli.WyswietlProdukty();
+            
 
             int kasiorka = 0;
             int calosc = 0;
@@ -66,13 +65,14 @@ namespace Kasa
                 Console.WriteLine("Lista produktów w Twoim Koszyku: ");
 
 
-
                 foreach (ItemekWKoszyku a in kasaSklepowa.Koszyk.Itemki)
                 {
 
                     Console.WriteLine($"{a.Produkt.Nazwa}, Ilość Produktów: {a.Ilosc}");
 
                 }
+
+                
               
 
                 Console.WriteLine();
@@ -101,7 +101,7 @@ namespace Kasa
                
             }
 
-  Console.WriteLine($"Za te {ileTego} rzeczy, to będzie...");
+ 
             
             
             DateTime thisDay = DateTime.Today;
