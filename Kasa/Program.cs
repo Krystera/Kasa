@@ -101,10 +101,11 @@ namespace Kasa
                
             }
 
- 
+ //commm
             
             
             DateTime thisDay = DateTime.Today;
+            Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine("Twój Paragon: ");
